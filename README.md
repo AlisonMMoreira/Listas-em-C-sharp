@@ -13,7 +13,7 @@ Os arrays como já sabemos é utilizado para algo que possui o tamanho dedfinido
 
 ### Exemplo de criação e inserção de valores em uma lista:
 
-  List<string> clientes = new List<string>();<br>
+  List`<string>` clientes = new List`<string>`();<br>
   clientes.Add("Alison");<br>
   string pessoa = "Mateus";<br>
   clientes.Add(pessoa);<br><br>

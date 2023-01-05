@@ -7,6 +7,16 @@ As listas funcionam semelhante aos arrays a diferença é que ele não tem um ta
 
 • Para inserir um valor na lista é necessário colocar o nome da lista e após isso `.Add()`.
 
-## Quando usar listas ou arrays?
+## Quando usar listas ou arrays? 🤔
 
 Os arrays como já sabemos é utilizado para algo que possui o tamanho dedfinido, já as listas servem para valores que não tem um tamanho dedfinido. O recomendado o uso das listas pois o seu tamanho é dinânico. Além de poder adicionar itens.
+
+### Exemplo de criação e inserção de valores em uma lista:
+
+  List<string> clientes = new List<string>();<br>
+  clientes.Add("Alison");<br>
+  string pessoa = "Mateus";<br>
+  clientes.Add(pessoa);<br><br>
+  
+  Console.WriteLine(clientes[0]);<br>
+  Console.ReadLine();

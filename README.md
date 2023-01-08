@@ -27,7 +27,7 @@ Uma forma de remover um elemento é usado o indice e a segunda forma é utilizan
 1- Forma de remoção:
       <nome_da_lista>.RemoveAt();
       
-                                            ~~ Contagem de todos os elementos existentes dentro da lista. ~~
+                             ~~ Contagem de todos os elementos existentes dentro da lista. ~~
        
 • Criando uma visualização de todos os elementos
 

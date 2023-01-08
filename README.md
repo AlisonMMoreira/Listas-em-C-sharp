@@ -23,3 +23,15 @@ Os arrays como já sabemos é utilizado para algo que possui o tamanho dedfinido
 
 ### Remoção de elementos💥♻
 Uma forma de remover um elemento é usado o indice e a segunda forma é utilizando um predicado.
+
+1- Forma de remoção:
+      <nome_da_lista>.RemoveAt();
+      
+       Contagem de todos os elementos existentes dentro da lista.
+       
+• Criando uma visualização de todos os elementos
+
+List<string> clientes = new List<string>();
+       
+       
+      

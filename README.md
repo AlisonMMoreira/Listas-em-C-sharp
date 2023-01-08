@@ -20,3 +20,6 @@ Os arrays como já sabemos é utilizado para algo que possui o tamanho dedfinido
   
   Console.WriteLine(clientes[0]);<br>
   Console.ReadLine();
+
+### Remoção de elementos
+Uma forma de remover um elemento é usado o indice e a segunda forma é utilizando um predicado.

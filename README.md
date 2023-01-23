@@ -29,25 +29,3 @@ Uma forma de remover um elemento é usado o indice e a segunda forma é utilizan
       
                              ~~ Contagem de todos os elementos existentes dentro da lista. ~~
        
-• Criando uma visualização de todos os elementos
-
-List<string> clientes = new List<string>();<br>
-clientes.Add("Alison");<br>
-clientes.Add("Mateus");<br>
-string Pessoa = "Moreira";<br>
-clientes.Add(pessoa);<br><br>
-
-foreach(string cliente in clientes)<br>
-{<br>
-    Console.WriteLine(cliente);<br>
-}<br>
-clientes.RemoveAt(1);<br><br>
-
-Console.WriteLine("=================");<br><br>
-
-foreach(string cliente in clientes)<br>
-{<br>
-    Console.WriteLine(cliente);<br>
-}<br>      
-<br>
-Console.ReadLine();
